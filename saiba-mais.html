@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Saiba mais — Outubro Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="about-page" style="background: linear-gradient(180deg, #f6d7ea 0%, #ffb7dd 40%, #ff79c1 100%); min-height:100vh; color:#111; font-family: 'Inter', sans-serif;">
+    <a class="back-link" href="index.html" title="Voltar" style="position:fixed;top:32px;left:32px;z-index:60;">
+      <svg width="56" height="56" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M15 18l-6-6 6-6" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+    <main class="container" style="max-width:900px;margin:0 auto;padding-top:3.5rem;">
+      <header style="text-align:center;margin-bottom:2.2rem;">
+        <h1 style="font-family:'Dancing Script',cursive;font-size:4rem;font-weight:700;margin:0;color:#111;">Saiba mais</h1>
+      </header>
+      <section style="text-align:center;">
+        <p style="font-size:1.35rem;font-family:'Dancing Script',cursive;font-weight:700;font-style:italic;line-height:1.5;margin-bottom:2.2rem;max-width:900px;margin-left:auto;margin-right:auto;">
+          O tratamento do câncer de mama varia conforme o tipo e o estágio da doença. Os mais usados são a cirurgia, a quimioterapia, a radioterapia, a hormonoterapia e, em alguns casos, terapias-alvo. O acompanhamento médico é essencial para escolher o melhor método para cada pessoa.<br><br>
+          <span style="text-decoration:underline;">Para saber mais, acesse:</span>
+        </p>
+        <ul style="list-style:disc;display:inline-block;text-align:left;font-size:1.25rem;font-family:'Dancing Script',cursive;font-weight:700;font-style:italic;">
+          <li><a href="https://www.gov.br/saude" target="_blank" style="color:#111;text-decoration:underline;">www.gov.br/saude</a></li>
+          <li><a href="https://www.inca.gov.br" target="_blank" style="color:#111;text-decoration:underline;">www.inca.gov.br</a></li>
+          <li><a href="https://www.oncoguia.org.br" target="_blank" style="color:#111;text-decoration:underline;">www.oncoguia.org.br</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container"><p>© <span id="year"></span> Outubro Rosa — Informação e apoio</p></div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

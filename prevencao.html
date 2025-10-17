@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Prevenção — Outubro Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Inter:wght@300;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="prevention-page">
+    <a class="back-link" href="index.html" title="Voltar">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M15 18l-6-6 6-6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+    <main class="container">
+      <header class="prevention-header">
+        <h1>Prevenção</h1>
+      </header>
+
+      <section class="prevention-cards">
+        <article class="card">
+          <h3>1. Autoexame e atenção ao corpo</h3>
+          <p>Conhecer o próprio corpo é essencial. O autoexame ajuda a perceber alterações, mas não substitui exames médicos.</p>
+        </article>
+
+        <article class="card">
+          <h3>2. Exames regulares</h3>
+          <p>Mamografia: geralmente recomendada a partir dos 40 anos (ou antes, se houver histórico familiar). Consultas regulares permitem diagnóstico precoce.</p>
+        </article>
+
+        <article class="card">
+          <h3>3. Hábitos saudáveis</h3>
+          <p>Alimentação equilibrada, atividade física regular e evitar álcool/tabaco ajudam a reduzir risco e melhoram a saúde geral.</p>
+        </article>
+      </section>
+
+      <section class="prevention-icons" aria-hidden="true">
+        <!-- radiography icon -->
+        <svg class="icon" viewBox="0 0 64 64" role="img" aria-label="Raio-x">
+          <rect x="8" y="10" width="48" height="44" rx="6" fill="#000"/>
+          <circle cx="32" cy="34" r="10" fill="#fff"/>
+        </svg>
+
+        <!-- checklist icon -->
+        <svg class="icon" viewBox="0 0 64 64" role="img" aria-label="Checklist">
+          <rect x="10" y="8" width="44" height="48" rx="6" fill="#000"/>
+          <rect x="18" y="16" width="28" height="4" fill="#fff"/>
+          <rect x="18" y="26" width="28" height="4" fill="#fff"/>
+          <rect x="18" y="36" width="18" height="4" fill="#fff"/>
+        </svg>
+
+        <!-- fruit icon -->
+        <svg class="icon" viewBox="0 0 64 64" role="img" aria-label="Fruta">
+          <path d="M8 40c6 12 24 18 40 10 0 0 4-18-10-28-14-10-30 2-30 18z" fill="#000"/>
+        </svg>
+      </section>
+
+      <p style="text-align:center; margin:2rem 0;">
+        <a class="btn outline" href="mailto:contato@exemplo.org">Entrar em contato</a>
+        <a class="btn" href="index.html" style="margin-left:.75rem;">Voltar ao site</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Outubro Rosa — Informação e apoio</p>
+      </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>

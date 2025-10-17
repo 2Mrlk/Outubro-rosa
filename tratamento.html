@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Tratamento — Outubro Rosa</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body class="treatment-page">
+    <a class="back-link" href="index.html" title="Voltar">
+      <svg width="36" height="36" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+        <path d="M15 18l-6-6 6-6" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+
+    <main class="container">
+      <header class="treatment-header">
+        <h1>Tratamento</h1>
+      </header>
+
+      <section class="treatment-cards" aria-label="Opções de tratamento">
+        <article class="card">
+          <h3>1. Cirurgia</h3>
+          <p>Remove o tumor ou toda a mama. Pode ser conservadora (retira só o tumor) ou mastectomia (retira toda a mama). Pode ser seguida de reconstrução mamária.</p>
+        </article>
+
+        <article class="card">
+          <h3>2. Radioterapia</h3>
+          <p>Usa radiação para destruir células cancerígenas remanescentes, geralmente indicada após cirurgia para reduzir risco de recidiva.</p>
+        </article>
+
+        <article class="card">
+          <h3>3. Quimioterapia</h3>
+          <p>Medicamentos que eliminam ou impedem a multiplicação das células cancerosas. Pode ser neoadjuvante (antes da cirurgia) ou adjuvante (após a cirurgia).</p>
+        </article>
+
+        <article class="card">
+          <h3>4. Terapia hormonal</h3>
+          <p>Indicada para tumores com receptores hormonais positivos; bloqueia o efeito dos hormônios que alimentam o crescimento do câncer (ex.: estrogênio).</p>
+        </article>
+
+        <article class="card">
+          <h3>5. Terapia-alvo</h3>
+          <p>Ataca moléculas específicas do tumor (ex.: HER2). Geralmente é menos agressiva que quimioterapia e mais precisa.</p>
+        </article>
+
+        <article class="card">
+          <h3>6. Imunoterapia</h3>
+          <p>Estimula o sistema imunológico a reconhecer e combater células cancerosas. Usada em alguns casos mais avançados.</p>
+        </article>
+      </section>
+
+      <p style="text-align:center; margin:2rem 0;">
+        <a class="btn outline" href="mailto:contato@exemplo.org">Entrar em contato</a>
+        <a class="btn" href="index.html" style="margin-left:.75rem;">Voltar ao site</a>
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Outubro Rosa — Informação e apoio</p>
+      </div>
+    </footer>
+
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+</html>
